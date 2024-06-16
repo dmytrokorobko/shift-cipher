@@ -52,8 +52,8 @@ let dec = cipher.decrypt(enc);
 console.log(dec); // Returns 'i love to code! xyz cba'
 
 const cipher2 = new ShiftCipher(-2456);
-enc = cipher2.encrypt("I love to code! xyz cba"); // Returns 'C FIPY NI WIXY! RST WVU'
-console.log(enc); // Returns 'G JMTX RM AMBC! vwt yax'
+enc = cipher2.encrypt("I love to code! xyz cba"); 
+console.log(enc); // Returns 'C FIPY NI WIXY! RST WVU'
 
 dec = cipher2.decrypt(enc);
 console.log(dec); // Returns 'i love to code! xyz cba'
