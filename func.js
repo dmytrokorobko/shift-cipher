@@ -47,7 +47,7 @@ class ShiftCipher {
 }
 
 const cipher = new ShiftCipher(10562);
-let enc = cipher.encrypt("I love to code! xyz cba"); // returns 'K NQXG VQ EQFG!'
+let enc = cipher.encrypt("I love to code! xyz cba"); 
 console.log(enc);
 let dec = cipher.decrypt(enc);
 console.log(dec);
@@ -58,4 +58,4 @@ console.log(enc);
 dec = cipher2.decrypt(enc);
 console.log(dec);
 
-console.log(new ShiftCipher(2).decrypt("K <3 OA RWRRA")); // returns 'i <3 my puppy'
+console.log(new ShiftCipher(2).decrypt("K <3 OA RWRRA")); 
